@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kravets/Meta/HW3/Reader.h
+string
+-
+iostream
+-
+fstream
+-
+TL.h
+/home/kravets/Meta/HW3/TL.h
+TLMethods.h
+/home/kravets/Meta/HW3/TLMethods.h
+
+/home/kravets/Meta/HW3/TL.h
+
+/home/kravets/Meta/HW3/TLMethods.h
+type_traits
+-
+TL.h
+/home/kravets/Meta/HW3/TL.h
+
+/home/kravets/Meta/HW3/main.cpp
+iostream
+-
+fstream
+-
+TL.h
+/home/kravets/Meta/HW3/TL.h
+TLMethods.h
+/home/kravets/Meta/HW3/TLMethods.h
+Reader.h
+/home/kravets/Meta/HW3/Reader.h
+
