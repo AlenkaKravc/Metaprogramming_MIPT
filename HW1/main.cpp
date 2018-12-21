@@ -4,9 +4,7 @@
 
 
 class interfaceA;
-
 class interfaceB;
-
 class interfaceC;
 
 class interfaceA {
@@ -27,11 +25,8 @@ public:
     }
 
     virtual void request() = 0;
-
     virtual void request(int indexB) = 0;
-
     virtual void update(int value) = 0;
-
     virtual void addSubscription(int index) = 0;
 };
 
@@ -62,9 +57,7 @@ public:
     }
 
     virtual void respond(interfaceA *A) = 0;
-
     virtual void respond(int indexB , interfaceA *A) = 0;
-
     virtual void subscribe(int indexB , interfaceA *A) = 0;
 };
 
@@ -72,7 +65,6 @@ class interfaceC {
 
 public:
     virtual void notifySubscribersB(int indexB , int value) = 0;
-
     virtual void subscribersB(int indexB , interfaceA *A) = 0;
 };
 
